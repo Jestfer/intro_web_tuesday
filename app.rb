@@ -11,5 +11,6 @@ get '/secret' do
 end
 
 get '/cat' do
+  @name = ["Amigo", "Óscar", "Viking"].sample
   erb(:index)
 end
