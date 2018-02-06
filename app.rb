@@ -10,7 +10,13 @@ get '/secret' do
   'password to NASA is = 12345'
 end
 
-get '/cat' do
+get '/random-cat' do
   @name = ["Amigo", "Óscar", "Viking"].sample
+  erb(:index)
+end
+
+get '/named-cat' do
+  p params
+  @name = params[:name]
   erb(:index)
 end
