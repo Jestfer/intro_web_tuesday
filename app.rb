@@ -10,14 +10,6 @@ get '/secret' do
   'password to NASA is = 12345'
 end
 
-get '/makers' do
-  'Makers Academy week 3'
-end
-
-get '/London' do
-  'lets see whats going on'
-end
-
-get '/shotgun' do
-  'just trying shotgun'
+get '/cat' do
+  '<img src="http://f.cl.ly/items/0k0v3e2X3l2f3i1n1Y19/Screen%20Shot%202013-09-10%20at%2011.32.00.png" style="border: dashed red">'
 end
